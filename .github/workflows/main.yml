@@ -41,8 +41,8 @@ jobs:
         GITHUB_TOKEN: ${{ github.token }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: target/playmcutilities*.jar
-        asset_name: PlayMCUtilities.jar
+        asset_path: target/PlayMCUtilities-${{ steps.project.outputs.version }}.jar
+        asset_name: PlayMCUtilities-${{ steps.project.outputs.version }}.jar
         asset_content_type: application/java-archive
     - name: Deploy to development server
       uses: appleboy/scp-action@master
