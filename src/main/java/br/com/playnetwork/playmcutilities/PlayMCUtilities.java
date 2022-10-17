@@ -11,6 +11,7 @@ import org.checkerframework.checker.nullness.qual.NonNull;
 
 public final class PlayMCUtilities extends JavaPlugin {
 
+    //Adventure
     private BukkitAudiences adventure;
 
     public @NonNull BukkitAudiences adventure() {
