@@ -1,0 +1,10 @@
+name: PlayMCUtilities
+version: '${project.version}'
+main: br.com.playnetwork.playmcutilities.PlayMCUtilities
+api-version: 1.19
+authors: [ Dudumaax ]
+description: All utilities used at playnetwork.com.br
+website: playnetwork.com.br
+commands:
+  teste:
+    description: Command used to test/debug stuff.
