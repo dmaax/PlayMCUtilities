@@ -52,4 +52,4 @@ jobs:
         port: ${{ secrets.PORT }}
         key: ${{ secrets.KEY }}
         source: target/PlayMCUtilities-${{ steps.project.outputs.version }}.jar
-        target: ${{ secrets.TARGET_DIRECTORY }}
+        target: ${{ secrets.TARGET_DIRECTORY }}/PlayMCUtilities-${{ steps.project.outputs.version }}.jar
